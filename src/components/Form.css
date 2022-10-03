@@ -1,0 +1,36 @@
+.myForm {
+  width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.myForm input {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.checkPromoCode {
+  display: flex;
+  align-items: center;
+}
+
+.myForm input[type="checkbox"] {
+  flex: 0;
+}
+
+.error {
+  width: 90%;
+  margin: 10px auto;
+  padding: 3px;
+  border-radius: 6px;
+  border: rgb(167, 0, 0) inset 3px;
+  background-color: rgb(255, 63, 63);
+  color: #fff;
+  font-size: 0.7rem;
+}
